@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificidade</title>
+</head>
+<body>
+    <h1>Especificidade</h1>
+    <p>É um cálculo matemático onde cada seletor tem sua origem e possui um valor a ser considerado</p>
+    <p>SELETOR UNIVERSAL <br>
+    Esse selector tem a menor força de todos, ele é feito pelo *, porem todos aqueles feitos após ele como origem, como h1 por exemplo terão mais força que ele e suas configurações serão consederadas
+    </p>
+    <p>Para entendermos a força de cada seletor devemos conseiderar a seguinte tabela
+        <ul>
+            <li>0 - Universal selector, combinators e negation pseudo-class (:not())</li>
+            <li>1 - Element type selector e pseudo-elements (::before, ::after)</li>
+            <li>10 - Classes e attribute selectors ([type="radio"])</li>
+            <li>100 - ID Selector</li>
+            <li>1000 - Inline</li>
+        </ul>
+    </p>
+</body>
+</html>
