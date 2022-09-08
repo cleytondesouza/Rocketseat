@@ -1,14 +1,18 @@
 h1{
-    color: red;
+    color: rgb(25, 8, 88);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
 }
 .container{
-    background-color: aqua;
+    background-color: rgb(139, 126, 126);
     padding: 10px;
     text-align: center;
     box-shadow: 1px 1px 20px black;
+    border-radius: 10px;
+    width: 600px;
 }
 img{
    width: 500px;
    box-shadow: 1px 1px 10px black;
+   border-radius: 250px;
 }
